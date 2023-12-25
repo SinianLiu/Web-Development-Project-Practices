@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.data-details p {
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: #99627a;
+  text-align: center;
+}
+
+span {
+  color: black;
+}
+
+label {
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: #99627a;
+}
+
+input {
+  height: 2rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+button {
+  height: 2rem;
+  color: white;
+  background-color: #99627a;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+

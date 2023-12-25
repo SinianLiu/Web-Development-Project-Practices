@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__form {
+  display: flex;
+}
+
+.left-side {
+  width: 25%;
+  height: 100vh;
+}
+
+.users {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+h2 {
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+}
+
+.right-side {
+  width: 75%;
+  background-color: #fdf0f0;
+  height: 100vh;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.messages {
+  list-style: none;
+}
+
+.message {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.user {
+  margin-top: 1rem;
+}
+
+.login__username {
+  margin-left: 1.5rem;
+}
+
+label,
+p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: #99627a;
+}
+
+.status,
+.message__text {
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: black;
+  margin-left: 1.5rem;
+}
+
+.add__form {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.controls {
+  width: 100%;
+  padding-left: 2.5rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+input {
+  flex: 95%;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  padding-left: 2.5rem;
+}
+
+button {
+  flex: 5%;
+  height: 2.5rem;
+  color: white;
+  background-color: #99627a;
+}
+

@@ -1,0 +1,92 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#chat-app {
+  display: flex;
+}
+
+/* left side */
+.left-side {
+  width: 15%;
+  height: 100vh;
+}
+
+.users {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.username {
+  font-size: 1.5rem;
+  font-family: Arial Black;
+  color: #99627a;
+}
+
+/* right-side */
+.right-side {
+  width: 85%;
+  background-color: #fdf0f0;
+  height: 100vh;
+  position: relative;
+}
+
+.messages {
+  list-style: none;
+}
+
+.message {
+  display: flex;
+  margin-top: 3rem;
+}
+
+/* sender-info for the left side of message */
+.sender-info {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+.sender-info > span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* sender-message for the right side of message */
+.sender-message {
+  padding-left: 2rem;
+}
+
+p {
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+/* message input box */
+form {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+input {
+  flex: 90%;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  padding-left: 2.5rem;
+}
+
+button {
+  flex: 5%;
+  height: 2.5rem;
+  color: white;
+  background-color: #99627a;
+}
+

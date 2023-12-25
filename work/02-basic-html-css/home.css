@@ -1,0 +1,8 @@
+.list {
+  border-style: solid;
+  border-width: 0.4rem;
+  border-color: brown;
+  padding: 3rem;
+  list-style-type: '\1F431';
+  margin: 0, 1rem, 0;
+}

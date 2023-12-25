@@ -1,0 +1,75 @@
+.login-page {
+  margin-top: 50vh;
+  margin-left: 25vw;
+}
+
+.main-area {
+  margin: 8rem;
+}
+
+label,
+span {
+  font-size: 1.5rem;
+  font-family: Arial;
+  color: #99627a;
+}
+
+input {
+  height: 2rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 0.7rem;
+  vertical-align: middle;
+}
+
+button {
+  height: 2.5rem;
+  width: 13rem;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #99627a;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+.valid-words {
+  text-align: justify;
+}
+
+.guess {
+  margin-top: 5rem;
+}
+
+.new-game,
+.logout {
+  margin-top: 1rem;
+}
+
+.button-widget {
+  display: flex;
+  justify-content: center;
+}
+
+.errors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.errors > p {
+  margin: 0.5rem;
+}
+
+.win {
+  margin: 0 auto;
+  font-size: 3rem;
+  color: #bb2525;
+  text-align: center;
+}
+
